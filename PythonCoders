@@ -1,0 +1,384 @@
+<Html>
+
+
+<h1> <a href="https://replit.com/join/mfeouoccnd-ali-mohammed-na">  Link to login </a> <h1>
+  
+
+ 
+
+
+    
+ <link rel="stylesheet"; href="style.css">
+  <link rel="stylesheet";
+          href="https://fonts.googleapis.com/css?family=fire-font-effect-Fire-animation">
+ 
+
+  <H2 class="font-effect-fire-animation">
+PythonCoders.com  
+  </H2>
+<style>
+
+body
+
+
+{
+  background-color: black;
+
+}
+
+h2
+{
+
+  color:white;
+    font-family: "Festive";
+
+}
+
+
+
+p
+{
+
+  color:white;
+    
+}
+a
+{
+    color: white;
+}
+
+</style>
+
+ 
+ <style>
+
+   img
+    {
+      
+    
+      border: 5px solid white;
+
+    }
+    </style>
+
+
+
+    
+
+
+<body>
+
+
+
+<Section class= "fwh-slide"></section>
+
+<p>
+
+
+</p>
+
+</body>
+
+    
+
+
+
+
+     <img 
+     src="https://wallpapercave.com/wp/wp3105538.jpg"width=1150>
+
+     <div><h2> What is Python: the major features and what it’s used for? </h2></div>
+
+     <p> 
+        Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.[31]
+
+Python is dynamically-typed and garbage-collected. It supports multiple programming paradigms, including structured (particularly, procedural), object-oriented and functional programming. It is often described as a "batteries included" language due to its comprehensive standard library.[32]
+
+Guido van Rossum began working on Python in the late 1980s, as a successor to the ABC programming language, and first released it in 1991 as Python 0.9.0.[33] Python 2.0 was released in 2000 and introduced new features, such as list comprehensions and a cycle-detecting garbage collection system (in addition to reference counting). Python 3.0 was released in 2008 and was a major revision of the language that is not completely backward-compatible. Python 2 was discontinued with version 2.7.18 in 2020.[34]
+
+Python consistently ranks as one of the most popular programming languages.[35][36][37][38]
+
+
+
+
+  
+
+
+     <div><h2> What's Pythons Major features? </h2></div>
+
+
+      <P>
+
+People use Python in many places. Its rich base library makes it excellent for all kinds of little helper scripts. But it scales just as well to large systems. To illustrate: the original creators of YouTube used Python for the most part! Dropbox, as far as I know, is primarily written in Python as well.
+
+You can use Python to automate tasks, perform calculations, create user interfaces, create website backends, access databases, download information from the Internet, etc. It’s a versatile language that is easy to learn and write. It’s perfect for beginning programmers but is just as useful and powerful for seasoned professionals.
+
+Another quickly growing field of expertise is called data science. Many data scientists use Python for their day-to-day work. And these are just a few examples. If you start looking closely, Python is very ubiquitous.
+
+Many people say that Python comes with batteries included. It’s a fun way of stating that it includes a comprehensive base library. In addition to this, you can find hundreds of thousands of external packages contributed by the enormous community. You’ll find supporting base libraries and packages for pretty much anything you want to accomplish.
+
+<ion-infinite-scroll>
+
+It’s is easy to read and write
+
+One of Python’s most notable features is the way it enforces the use of indentation for readability. Without proper indentation, your code won’t even run. In Python, we need to indent all code blocks to the same level. Here’s an example of this at work. If you don’t understand the code yet, don’t worry: Example of Programs in Python these are some Easy code.....
+<br>
+<br>
+def bigger_than_five(x):
+  # The contents of a function are indented
+  if x > 5:
+    # This is another, even more indented block of code
+    print("X is bigger than five")
+  else:
+    # And one more!
+    print("x is 5 or smaller")
+    <ion-infinite-scroll/>
+
+
+
+
+
+ <div><h2> Intercepted V.S Compiled </h2></div>
+
+
+
+
+
+
+
+    <p>
+        Python is Interpreted
+
+Python code is interpreted on the fly by the Python interpreter when you run a program. This is true for CPython, which is the reference implementation of the Python programming language. Being an interpreted language means that the Python interpreter opens the file and starts reading it line by line, performing the appropriate actions for each statement. For example, when the Python interpreter encounters the function call print("Hello") in your code, it will take the provided string and feed it to some internal function that will print the text to your screen.
+Compiled languages
+
+Interpretation is a totally different approach than compiled languages like C, in which code compiles into low-level machine code that can be run directly by the computer’s processor. Compiling code like this is also called ahead-of-time compilation (AOT).
+
+Because no interpreter is acting as an intermediary, there’s no overhead. So, in theory, compiled code is much faster. In practice, however, using the right algorithms and writing efficient code can make a lot of difference. In addition, many popular Python libraries like Numpy contain C-based code at their core, making them extremely fast while you still profit from all the good things Python has to offer.
+Advantages of interpreted languages
+
+An interpreted language has several advantages compared to ahead-of-time compilation:
+
+    You can write your code in a text editor and execute it directly. No additional steps like compilation and linking are necessary.
+    Because it’s plain text, you can simply open a program and inspect its contents. In contrast, compiled code is not human readable.
+    It is platform-independent. As long as the platform has a Python interpreter, your code will work. Compiled code ties itself to a specific platform, like Windows and Linux, and specific processor architecture, like Intel or ARM.
+
+Some of these advantages can also be a disadvantage. As already mentioned, interpreted languages are not high-performance languages. Also, the fact that the source code is easy to read and modify is not an advantage to vendors that want to protect their copyright.
+Between interpreted and compiled
+
+An in-between option is a just-in-time compiler (JIT). With JIT, you compile your code while running the program. JIT tries to combine the speed advantage of ahead-of-time compilation with the flexibility of interpretation. A big advantage of JIT is that the JIT compiler keeps optimizing your code, even while it is running. The longer your code runs, the more optimized it will become.
+
+Java and the .NET framework are notable examples of JIT compilation, but a JIT-based Python implementation also exists, called PyPy. This project has come a long way and is usable as a drop-in replacement in many cases. See the chapter on Python concurrency for more information on PyPy.
+Dynamically typed
+
+Another advantage of interpreted languages is that it opens the door to dynamic typing. What does that mean? I’ll demonstrate it with some simple code.
+
+Here are a few variable declarations in Java:
+String myName = "Erik";
+int myAge = 37;
+float mySalary = 1250.70;
+
+In a strongly typed language, you need to specify the exact type of each variable, like String, int, and float. It gets even uglier when objects are involved.
+
+Now let’s look at Python variables. In Python, we can do exactly the same without types:
+my_name = "Erik"
+my_age = 37
+my_salary = 1250.70
+
+As you can see, the Python variant is a lot cleaner and easier on the eyes!
+
+When running this code, Python dynamically finds out the type of our variables. Say, for example, I’d like to know my yearly income by multiplying my salary by 12. I’d need to do the following:
+my_income = my_salary * 12
+
+Python will look at my_salary, see that it is a floating-point value, and perform the math. If my_salary would have been a string, Python wouldn’t complain though. It would detect it’s a string and just create a new one, consisting of 12 repetitions of that string! Java, however, would fail with an error in such cases.
+
+Dynamic typing has many advantages. In general, it makes it easier to get started quickly. Some will tell you that it’s more error-prone. A strongly typed language like Java won’t compile when there’s a type error. Python will probably continue running, but the output will be unexpected. It is my experience that it doesn’t happen that often. In addition, you’ll find out soon enough during testing and fix the error before the software ever goes to production.
+
+Since Python version 3.5, Python also supports type hints. It’s an optional feature, but many programmers embrace it since it has quite a few advantages, like better auto-completion in your Python IDE.
+Garbage collection
+
+Python has the concept of variables. A variable allows you to store any value like a number, a string of text, or even bigger objects.
+
+Each variable you declare takes up space in your computer’s memory. This can add up quickly, especially when you create programs that run for a long time. So you need a way to clean up variables that you don’t use anymore.
+
+In some languages, you need to perform this cleanup explicitly. This is prone to a type of error called a memory leak. If you make a little mistake and forget to clean up, your software will slowly eat up available memory. Lucky for us, Python’s garbage collector takes care of cleaning up unused variables automatically!
+
+I’m not going into the nitty-gritty details here, but you can rest assured Python will do a perfect job, and it will never accidentally clean up a variable that you still need.
+What is Python’s popularity?
+
+Python comes in second place on a well-known list of popular programming languages since January 2021. Javascript, due to its stronghold as a web development language, is still number one, though. This popularity is a great advantage. There are vast amounts of resources, sample code, and help available. Python is here to stay; learning it is a safe bet! mmh what about this .....
+Python For Beginners
+
+Welcome! Are you completely new to programming? If not then we presume you will be looking for information about why and how to get started with Python. Fortunately an experienced programmer in any programming language (whatever it may be) can pick up Python very quickly. It's also easy for beginners to use and learn, so jump in!
+Installing
+
+Installing Python is generally easy, and nowadays many Linux and UNIX distributions include a recent Python. Even some Windows computers (notably those from HP) now come with Python already installed. If you do need to install Python and aren't confident about the task you can find a few notes on the BeginnersGuide/Download wiki page, but installation is unremarkable on most platforms.
+Learning
+
+Before getting started, you may want to find out which IDEs and text editors are tailored to make Python editing easy, browse the list of introductory books, or look at code samples that you might find helpful.
+
+There is a list of tutorials suitable for experienced programmers on the BeginnersGuide/Tutorials page. There is also a list of resources in other languages which might be useful if English is not your first language.
+
+The online documentation is your first port of call for definitive information. There is a fairly brief tutorial that gives you basic information about the language and gets you started. You can follow this by looking at the library reference for a full description of Python's many libraries and the language reference for a complete (though somewhat dry) explanation of Python's syntax. If you are looking for common Python recipes and patterns, you can browse the ActiveState Python Cookbook
+Looking for Something Specific?
+
+If you want to know whether a particular application, or a library with particular functionality, is available in Python there are a number of possible sources of information. The Python web site provides a Python Package Index (also known as the Cheese Shop, a reference to the Monty Python script of that name). There is also a search page for a number of sources of Python-related information. Failing that, just Google for a phrase including the word ''python'' and you may well get the result you need. If all else fails, ask on the python newsgroup and there's a good chance someone will put you on the right track.
+Frequently Asked Questions
+
+If you have a question, it's a good idea to try the FAQ, which answers the most commonly asked questions about Python.
+Looking to Help?
+
+If you want to help to develop Python, take a look at the developer area for further information. Please note that you don't have to be an expert programmer to help. The documentation is just as important as the compiler, and still needs plenty of work!
+
+<p/>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ <div><h2> How did Python Start?</h2></div>
+<img
+src="https://wallpapercave.com/wp/wp3105538.jpg"width=1150>
+
+<p>
+The programming language Python was conceived in the late 1980s,[1] and its implementation was started in December 1989[2] by Guido van Rossum at CWI in the Netherlands as a successor to ABC capable of exception handling and interfacing with the Amoeba operating system.[3] Van Rossum is Python's principal author, and his continuing central role in deciding the direction of Python is reflected in the title given to him by the Python community, Benevolent Dictator for Life (BDFL).[4][5] (However, van Rossum stepped down as leader on July 12, 2018.[6]). Python was named after the BBC TV show Monty Python's Flying Circus.[7]
+
+Python 2.0 was released on October 16, 2000, with many major new features, including a cycle-detecting garbage collector (in addition to reference counting) for memory management and support for Unicode. However, the most important change was to the development process itself, with a shift to a more transparent and community-backed process.[8]
+
+Python 3.0, a major, backwards-incompatible release, was released on December 3, 2008[9] after a long period of testing. Many of its major features have also been backported to the backwards-compatible, though now-unsupported, Python 2.6 and 2.7.[10] 
+Python is a widely used general-purpose, high-level programming language. It was initially designed by Guido van Rossum in 1991 and developed by Python Software Foundation. It was mainly developed for emphasis on code readability, and its syntax allows programmers to express concepts in fewer lines of code.
+
+Let’s dig deeper –
+In the late 1980s, history was about to be written. It was that time when working on Python started. Soon after that, Guido Van Rossum began doing its application based work in December of 1989 by at Centrum Wiskunde & Informatica (CWI) which is situated in Netherland. It was started firstly as a hobby project because he was looking for an interesting project to keep him occupied during Christmas. The programming language which Python is said to have succeeded is ABC Programming Language, which had the interfacing with the Amoeba Operating System and had the feature of exception handling. He had already helped to create ABC earlier in his career and he had seen some issues with ABC but liked most of the features. After that what he did as really very clever. He had taken the syntax of ABC, and some of its good features. It came with a lot of complaints too, so he fixed those issues completely and had created a good scripting language which had removed all the flaws. The inspiration for the name came from BBC’s TV Show – ‘Monty Python’s Flying Circus’, as he was a big fan of the TV show and also he wanted a short, unique and slightly mysterious name for his invention and hence he named it Python! He was the “Benevolent dictator for life” (BDFL) until he stepped down from the position as the leader on 12th July 2018. For quite some time he used to work for Google, but currently, he is working at Dropbox.
+The language was finally released in 1991. When it was released, it used a lot fewer codes to express the concepts, when we compare it with Java, C++ & C. Its design philosophy was quite good too. Its main objective is to provide code readability and advanced developer productivity. When it was released it had more than enough capability to provide classes with inheritance, several core data types exception handling and functions.
+ You may have heard that Python is gaining in popularity, but did you know it’s now the most popular introductory teaching language in U.S. universities? And it’s the fourth most popular language according to an IEEE survey, behind old classics Java, C, and C++?  So in celebration of our two new Python courses — Try Python and Flying Through Python — and the launch of our new Python technology Path, I wanted to delve into why Python is useful to learn, and showcase a few companies who use it.
+Is Python Useful?
+
+Python is easy to use, powerful, and versatile, making it a great choice for beginners and experts alike. Python’s readability makes it a great first programming language — it allows you to think like a programmer and not waste time with confusing syntax. For instance, look at the following code to print “hello world” in Java and Python.
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<div><h2> About our Orgaization.....</h2></div>
+<img
+src="https://wallpapercave.com/wp/wp3105538.jpg"width=1150>
+
+<p>
+PythonCoders is a nonprofit dedicated to expanding access to computer science in schools and increasing participation by young women and students from other underrepresented groups. Our vision is that every student in every school has the opportunity to learn computer science as part of their core K-12 education.
+
+
+<div><h2> Python Basics [In video]</h2></div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p7CiFhiTdvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+
+<div><h2> Python News</h2></div>
+
+
+{
+
+  color:white;
+    
+}
+<p>
+
+Monday, November 15, 2021
+Python 3.9.9 hotfix release is now available
+
+Get it here: https://www.python.org/downloads/release/python-399/
+
+Python 3.9.9 is the eighth maintenance release of the legacy 3.9 series. Python 3.10 is now the latest feature release series of Python 3. Get the latest release of 3.10.x here.
+
+3.9.9 was released out of schedule as a hotfix for an argparse regression in Python 3.9.8 which caused complex command-line tools to fail recognizing sub-commands properly. Details in BPO-45235. There are only three other bugfixes in this release compared to 3.9.8. See the changelog for details on what changed.
+
+Upgrading to 3.9.9 is highly recommended if you’re running Python 3.9.8.
+
+The next Python 3.9 maintenance release will be 3.9.10, currently scheduled for 2022-01-03.
+We apologize for the inconvenience
+
+…and still hope you’ll enjoy the new release!
+
+Your friendly release team,
+Ned Deily @nad
+Steve Dower @steve.dower
+Łukasz Langa @ambv
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+<br>
+<br>
+
+<sr>
+
+ <button type="submit"> Login </button> 
+
+
+
+<button type="submit"> Register  </button>
+
+<sr>
+
+
+
+
+
+
+
+
+</body>
+
+
+</Html>
+
+
+
+
+
+
+
+
+
+
+
